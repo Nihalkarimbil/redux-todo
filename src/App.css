@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.LI{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+}
+.task{
+  display: flex;
+  height: 60px;
+}
+.input-container{
+  background-color: black;
+  width: 700px;
+  margin-left: 300px;
+  border-radius: 10px;
+  border: 2px solid yellow;
+
+}
+.aria{
+  height: 40px ;
+  width: 400px;
+  border-radius: 10px;
+  border: 2px solid yellow;
+}
+.addbtn{
+  height: 50px;
+  width: 90px;
+  margin-top: 30px ;
+  border-radius: 10px ;
+  border: 2px solid yellow ;
+  margin-left: 20px;
+}
+.item{
+  background-color: white;
+  height: 30px ;
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 7px;
+  margin-right: 10px;
+  
+}
+.BTN{
+  position: relative;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.task{
+  margin-right:45px ;
+}
+.BTN2{
+  position: relative;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 4px;
+  border-radius: 5px;
+}
+.hedding{
+  color: orange;
+}
+.editeditem{
+  background-color: white;
+  height: 35px ;
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 19px;
+  margin-right: 10px;
+
+}
