@@ -1,48 +1,4 @@
-// import React, { useState } from 'react'
-// import { useDispatch, useSelector } from 'react-redux'
-// import { addTodo, deleteTodo } from '../Store/slice/TodoSlice'
 
-// function Todo() {
-//     const Todos = useSelector(state => state.Todos.Todo)
-//     console.log(Todos);
-
-
-//     const dispatch = useDispatch()
-//     const [todos, setTodos] = useState("")
-
-//     const handletodo = () => {
-//         dispatch(addTodo(todos))
-//         setTodos("")
-//     }
-//     const handledelete = (index) => {
-//         dispatch(deleteTodo(index))
-//     }
-
-
-//     return (
-//         <div className='input-container'>
-//             
-//             <input className="aria" type='text' placeholder='enter text' value={todos} onChange={(e) => setTodos(e.target.value)} />
-//             <button className='addbtn' onClick={handletodo}>Add task</button>
-//             <div className='list-task'>
-//                 <ul className='UL'>
-//                     {Todos.map((item, index) => (
-//                         <li key={index} className='LI'>
-//                             <div className='task'>
-//                                 <h4 className='item'>{item}</h4>
-//                                 <button className='BTN' onClick={() => handledelete(index)}>Delete</button>
-//                                 <button className='BTN2' onClick={}>edit</button>
-//                             </div>
-
-//                         </li>
-//                     ))}
-//                 </ul>
-//             </div>
-//         </div>
-//     )
-// }
-
-// export default Todo
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addTodo, deleteTodo, updateTodo } from '../Store/slice/TodoSlice';
